@@ -1,0 +1,25 @@
+.product-card {
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .product-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    }
+    .product-img {
+      height: 200px;
+      object-fit: contain;
+      padding: 10px;
+      background: #f9f9f9;
+    }
+    .product-name {
+      font-size: 16px;
+      font-weight: 600;
+      height: 40px;
+      overflow: hidden;
+    }
+    .product-price {
+      color: #e74c3c;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    

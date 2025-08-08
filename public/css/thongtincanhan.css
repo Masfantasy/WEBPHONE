@@ -1,0 +1,32 @@
+.cart-card {
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+      padding: 16px;
+    }
+    .cart-img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 8px;
+      background-color: #f8f9fa;
+    }
+    .product-name {
+      font-weight: 600;
+      font-size: 1.1rem;
+    }
+    .product-price {
+      color: #e74c3c;
+      font-weight: bold;
+    }
+    .qty-input {
+      width: 60px;
+      text-align: center;
+    }
+    #user-menu {
+      min-width: 150px;
+    }
+    #user-menu a {
+      padding: 10px 16px;
+      display: block;
+    }
